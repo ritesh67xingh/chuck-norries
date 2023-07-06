@@ -1,0 +1,57 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category-item {
+  margin: 10px;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+.joke-container {
+  text-align: center;
+}
+
+.joke-container p {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
